@@ -699,7 +699,9 @@ a[data-lightbox]:hover img {
     color: rgba(0, 0, 0, .5);
     background: none;
 }
-
+.textpied{
+    color: #FFFFFF!important;
+}
 h1,
 h2,
 h3,
