@@ -12,6 +12,10 @@ button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
+.color-btn{
+    background-color:#f8b393 !important;
+    border-color: black !important;
+}
 
 a:hover {
     text-decoration: none;
@@ -92,12 +96,6 @@ a:hover {
     left: 0;
     right: 0;
 }
-
-.texture-paper::before {
-    background: url("images/texture-paper.webp");
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -335,14 +333,16 @@ a:hover {
 
 .citation-clients{
     color: black;
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 2rem;
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
-    padding-left: 29rem;
+    width: 100%;
     padding-top: 3rem;
-    line-height: 2.5rem;
+    line-height: 3rem;
+}
+
+.texte-presentation{
+    font-size: 2rem;
 }
 
 .mail{
@@ -353,35 +353,10 @@ a:hover {
    cursor: pointer;
 }
 
-
-.page2design{
-display: flex;
-flex-wrap: wrap;
-height: 10rem;
-}
-
-.titlep2{
-    width: 50%;
-    margin-left: 45rem;
-}
-
 .textp2{
-    font-size: 1rem;
-    padding-left: -2rem;
-    line-height: 1.5rem;
-    padding-bottom: 1rem;
-}
-
-.formulaire{
-display: flex;
-justify-content: center;
-padding-top: 2rem;
-}
-
-.button{
-    border-color:0.5px rgb(238, 236, 236);
-    border-radius: 1rem;
-
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: white !important;
 }
 
 
@@ -746,7 +721,13 @@ color:rgb(253, 251, 251) !important;
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
+}
+
+.texte-descriptif{
+    display: flex;
+    width: 100%;
+    font-size: 2rem;
 }
 
 .tight-width-whitespace {
@@ -774,7 +755,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 28px;
     line-height: 1.4em;
 }
 
@@ -823,7 +804,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgb(185, 166, 112);
+    background-color: rgb(73, 66, 45);
     padding: 40px 40px 40px 40px;
 }
 
@@ -845,10 +826,10 @@ h4 {
 }
 
 .tc-white {
-    color: #421602!important;
+    color: #fbfaf9!important;
 }
 .tcs-white{
-    color: rgb(238, 229, 229);
+    color: rgb(255, 255, 255);
 }
 
 .nav-accueilp2{
