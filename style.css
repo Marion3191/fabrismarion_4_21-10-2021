@@ -356,8 +356,9 @@ a:hover {
 .textp2{
     font-size: 1.5rem;
     line-height: 2rem;
-    color: white !important;
+    
 }
+
 
 
 .envoyer{
@@ -371,7 +372,8 @@ text-align: center;
 padding-top: 4rem;
 }
 .text-pied{
-    font-size: 1.5rem;
+    font-size: 2rem;
+    color: black !important;
 }
 .navbar-toggle {
     margin: 10px 10px 0 0;
@@ -826,10 +828,10 @@ h4 {
 }
 
 .tc-white {
-    color: #fbfaf9!important;
+    color: #0a0a0a!important;
 }
 .tcs-white{
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255)!important;
 }
 
 .nav-accueilp2{
@@ -908,13 +910,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -932,10 +934,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -944,8 +942,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
